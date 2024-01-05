@@ -1,16 +1,23 @@
 //Tasksheet 1-1-4
 
+import java.util.Scanner;
+
 class ScoreGrade {
     public static void main(String[] args) {
-        System.out.println("Odd and Even numbers"); // Display the string.
-
-        for(int i=1; i<=10; i++){
-            if(i%2==0){
-                System.out.println(i+" is even number");
-            }
-            else{
-                System.out.println(i+" is odd number");
-            }
-        };
+        Scanner myScore = new Scanner(System.in);
+        System.out.print("Please enter your score: "); // Display the string.
+        
+        int score = myScore.nextInt();
+        if(score < 60){
+            System.out.println("Your grade is F");
+        }else if(score >= 60 && score <= 69){
+            System.out.println("Your grade is D");
+        }else if(score >= 70 && score <= 79){
+            System.out.println("Your grade is C");
+        }else if(score >= 80 && score <= 89){
+            System.out.println("Your grade is B");
+        }else{
+            System.out.println("Your grade is A");
+        }
     }
 }
