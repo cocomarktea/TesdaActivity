@@ -1,3 +1,4 @@
+package tasksheet;
 //tasksheet 1-1-2
 
 class ArithmeticTask {
