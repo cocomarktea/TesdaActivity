@@ -14,7 +14,7 @@ public class stringMethods {
         System.out.print("\n2. uppercase     : "+uCase);
         System.out.print("\n3. lowercase     : "+lCase);
         System.out.print("\n4. first char    : "+pers);
-        System.out.print("\n5. last char     : "+last);
+        System.out.print("\n5. last char     : "+last+"\n");
         System.out.println("6. Substring(2,5): "+myInput.substring(2,5));
     }
 }
