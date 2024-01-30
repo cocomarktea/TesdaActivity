@@ -7,7 +7,7 @@ public class monthDays {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a month number (1 for January, 2 for February, etc.): ");
+        System.out.print("Enter a month number(1:Jan - 12:Dec): ");
         int month = scanner.nextInt();
         switch (month) {
             case 1: // Jan
