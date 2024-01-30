@@ -1,4 +1,4 @@
-package tasksheet;
+package challenge;
 //Tasksheet 1-1-4
 
 import java.util.Scanner;
