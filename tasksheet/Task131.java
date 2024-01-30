@@ -18,20 +18,21 @@ class Mechado extends Afritada {
         System.out.println("Mechado = " + java.util.Arrays.toString(ingredients) + "🍲 \n");
     }
 }
+
 class Menudo extends Afritada {
     public void showIngredients() {
-        public void showIngredients() {
-            String[] Ingredients = 
-              {"Tomato Sauce",
-               "Meat",
-               "Potatoes & Carrots",
-               "Liver Spread",
-               "Raisins",
-               "Hotdog",
-               "Siling Labuyo"};
+           String[] Ingredients = 
+            {"Tomato Sauce",
+             "Meat",
+             "Potatoes & Carrots",
+             "Liver Spread",
+             "Raisins",
+             "Hotdog",
+              "Siling Labuyo"};
             System.out.println("Menudo = "+java.util.Arrays.toString(Ingredients)+"🍲 \n");
     }
-}
+  }
+
 
   class Caldereta extends Afritada {
     public void showIngredients() {
@@ -53,16 +54,14 @@ class Menudo extends Afritada {
       public static void main(String[] args) {
         // add 4 meal$ objects here and set the type as the extended Afritada class
         Afritada meal1 = new Afritada();
-        Mechado meal2 = new Mechado();
-        Menudo meal3 = new Menudo();
-        Caldereta meal4 = new Caldereta();
-  
-        
-          Afritada meal4 = new Caldereta();
+        Afritada meal2 = new Mechado();
+        Afritada meal3 = new Menudo();
+        Afritada meal4 = new Caldereta();
         // display all ingredients at every object
-          meal1.showIngredients();
-  
-        
-          
+        meal1.showIngredients();
+        meal2.showIngredients();
+        meal3.showIngredients();
+        meal4.showIngredients();
+
       }
   }
